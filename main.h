@@ -230,10 +230,10 @@ void _help_unsetenv(void);
 void _help_general(void);
 void _help_exit(void);
 
-/* aux_help2.c */
-void aux_help(void);
-void aux_help_alias(void);
-void aux_help_cd(void);
+/* _help2.c */
+void _help(void);
+void _help_alias(void);
+void _help_cd(void);
 
 /* get_help.c */
 int get_help(data_shell *datash);
