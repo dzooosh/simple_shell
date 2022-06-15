@@ -22,7 +22,6 @@ extern char **environ;
 
 /**
  * struct data - struct that contains all relevant data on runtime
- *
  * @av: argument vector
  * @input: command line written by the user
  * @args: tokens of the command line
@@ -44,10 +43,8 @@ typedef struct data
 
 /**
  * struct sep_list_s - single linked list
- *
  * @separator: ; | &
  * @next: next node
- *
  * Description: single linked list to store separators
  */
 typedef struct sep_list_s
@@ -58,10 +55,8 @@ typedef struct sep_list_s
 
 /**
  * struct line_list_s - single linked list
- *
  * @line: command line
  * @next: next node
- *
  * Description: single linked list to store command lines
  */
 typedef struct line_list_s
@@ -72,12 +67,10 @@ typedef struct line_list_s
 
 /**
  * struct r_var_list - single linked list
- *
  * @len_var: length of the variable
  * @val: value of the variable
  * @len_val: length of the value
  * @next: next node
- *
  * Description: single linked list to store variables
  */
 typedef struct r_var_list
@@ -89,8 +82,7 @@ typedef struct r_var_list
 } r_var;
 
 /**
- * struct builtin_s - Builtin struct for command args
- *
+ * struct builtin_s - Builtin struct for command args.
  * @name: The name of the command builtin i.e cd, exit, env
  * @f: data type pointer function.
  */
@@ -223,17 +215,17 @@ int get_error(data_shell *datash, int eval);
 /* get_sigint.c */
 void get_sigint(int sig);
 
-/* _help.c */
-void _help_env(void);
-void _help_setenv(void);
-void _help_unsetenv(void);
-void _help_general(void);
-void _help_exit(void);
+/* aux_help.c */
+void aux_help_env(void);
+void aux_help_setenv(void);
+void aux_help_unsetenv(void);
+void aux_help_general(void);
+void aux_help_exit(void);
 
-/* _help2.c */
-void _help(void);
-void _help_alias(void);
-void _help_cd(void);
+/* aux_help2.c */
+void aux_help(void);
+void aux_help_alias(void);
+void aux_help_cd(void);
 
 /* get_help.c */
 int get_help(data_shell *datash);
