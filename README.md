@@ -1,9 +1,9 @@
 # 0x16. C - Simple Shell
 ## Resources
 ### Read or watch:
-* [Unix shell](https://en.m.wikipedia.org/wiki/Unix_shell/)
-* [Thompson shell](https://en.m.wikipedia.org/wiki/Thompson_shell/)
-* [Ken Thompson](https://en.m.wikipedia.org/wiki/Ken_Thompson/)
+* [Unix shell](https://en.m.wikipedia.org/wiki/Unix_shell)
+* [Thompson shell](https://en.m.wikipedia.org/wiki/Thompson_shell)
+* [Ken Thompson](https://en.m.wikipedia.org/wiki/Ken_Thompson)
 ### man or help:
 * `sh` (_Run_ `sh` _as well_)
 ## General
